@@ -1,0 +1,47 @@
+My assignment 16
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "10.39.0.0/16",
+            "DhcpOptionsId": "dopt-06ae0f7c",
+            "State": "available",
+            "VpcId": "vpc-037e126e7434707b3",
+            "OwnerId": "671676762632",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0c8c0ed1214ad5208",
+                    "CidrBlock": "10.39.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpcAssignment16"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-06ae0f7c",
+            "State": "available",
+            "VpcId": "vpc-09370fb4d5dfdb8b7",
+            "OwnerId": "671676762632",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-08f0fd3a104650783",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true
+        }
+    ]
+}
